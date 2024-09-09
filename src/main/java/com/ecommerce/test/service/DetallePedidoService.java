@@ -1,7 +1,10 @@
 package com.ecommerce.test.service;
 
 import com.ecommerce.test.model.DetallePedido;
+import com.ecommerce.test.model.Pedido;
+import com.ecommerce.test.model.Usuario;
 import com.ecommerce.test.repository.DetallePedidoRepository;
+import com.ecommerce.test.repository.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

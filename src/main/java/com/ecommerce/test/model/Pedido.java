@@ -27,4 +27,8 @@ public class Pedido {
     private String fecha;
     private String estado;
     private Double total;
+
+    public Pedido(Long id) {
+        this.id = id;
+    }
 }
